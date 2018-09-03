@@ -1,0 +1,33 @@
+{
+    "name": "baorv/l5-klaviyo",
+    "description": "Wrapper klaviyo API for Laravel 5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baorv",
+            "email": "roanvanbao@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.0",
+        "ixudra/curl": "6.*",
+        "phpunit/phpunit": "6.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baorv\\Klaviyo\\": "src/"
+        },
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baorv\\Klaviyo\\KlaviyoServiceProvider"
+            ]
+        }
+    }
+}
