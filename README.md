@@ -1,18 +1,17 @@
 # Laravel Klaviyo API
 
-Wrapper Klaviyo API works with Laravel 5.5
+Wrapper Klaviyo API works with Laravel 5.*
 
 ## Requirements
 
 * PHP 7.0.0 (or higher)
-* Laravel framework >= v5.5
-* Package [ixudra/curl](https://packagist.org/packages/ixudra/curl)
+* Laravel framework >= v5.0
 
 ## Installation
 
 ```php
 "require": {
-    "baorv/klaviyo": "dev-master"
+    "baorv/l5-klaviyo": "dev-master"
 }
 ```
 
@@ -66,3 +65,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Todo
 
 * Add unit test
+* Travis
